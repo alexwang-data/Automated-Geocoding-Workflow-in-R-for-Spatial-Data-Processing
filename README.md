@@ -4,7 +4,7 @@
 
 A small R script for batch-geocoding addresses from a CSV using OpenStreetMap's Nominatim service, with output as CSV, Shapefile, GeoJSON, or GeoPackage for mapping.
 
-## ❓ Why R instead of ArcGIS?
+## 🤔 Why R instead of ArcGIS?
 
 In ArcGIS Pro, geocoding is a lot of clicking. This script takes a CSV in, returns a desired file format with address validation and requires mimnial manual intervention. 
 
