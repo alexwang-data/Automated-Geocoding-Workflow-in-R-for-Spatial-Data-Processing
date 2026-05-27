@@ -1,3 +1,3 @@
 # Automated-Geocoding-Workflow-in-R-for-Spatial-Data-Processing
 
-This is a reproducible workflow for transforming messy address data into validated geographic coordinates for GIS analysis.
+This is a reproducible workflow in R for processing and validating address data for GIS applications
