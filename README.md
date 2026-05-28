@@ -48,3 +48,7 @@ in the script to use the US Census geocoder. <br><br>
 For QGIS, export as GeoJSON. <br>
 
 For ArcGIS Pro, export as GeoPackage.
+
+## 🚭 Limitation
+
+This workflow identifies records that successfully return latitude and longitude values but does not assess the quality or accuracy of the geocoding match. `tidygeocoder` does not provide a robust confidence score comparable to some commercial geocoders.
