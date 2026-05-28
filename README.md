@@ -11,6 +11,7 @@ In ArcGIS Pro, geocoding is a lot of clicking. This script takes a CSV in, retur
 ## 📚 Libraries
 ```r
 library(readr)            # for csv writing
+library(stringr)          # for string manipulation
 library(dplyr)            # for data manipulation
 library(tidygeocoder)     # for geocoding addresses
 library(sf)               # for spatial object conversion
@@ -20,7 +21,7 @@ library(sf)               # for spatial object conversion
 Install R and RStudio:<br>
 https://posit.co/download/rstudio-desktop <br>
 
-In RStudio, install and load all of the **4 libraries**:<br>
+In RStudio, install and load all of the **5 libraries**:<br>
 ```r
 install.packages("tidygeocoder")
 library(tidygeocoder)
